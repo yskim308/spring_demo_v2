@@ -1,0 +1,138 @@
+======================================
+contest number: 42
+contest URL: https://atcoder.jp/contests/abc042/tasks
+======================================
+
+Task: A
+
+URL: https://atcoder.jp/contests/abc042/tasks/abc042_a
+
+Title: A - Iroha and Haiku (ABC Edition)
+
+Points: 100
+
+Problem Statement: Iroha loves Haiku. Haiku is a short form of Japanese poetry. A Haiku consists of three phrases with 5, 7 and 5 syllables, in this order. To create a Haiku, Iroha has come up with three different phrases. These phrases have A, B and C syllables, respectively. Determine whether she can construct a Haiku by using each of the phrases once, in some order.
+
+---
+
+Task: B
+
+URL: https://atcoder.jp/contests/abc042/tasks/abc042_b
+
+Title: B - Iroha Loves Strings (ABC Edition)
+
+Points: 200
+
+Problem Statement: Iroha has a sequence of N strings S_1, S_2, ..., S_N. The length of each string is L. She will concatenate all of the strings in some order, to produce a long string. Among all strings that she can produce in this way, find the lexicographically smallest one. Here, a string s=s_1s_2s_3...s_n is lexicographically smaller than another string t=t_1t_2t_3...t_m if and only if one of the following holds: There exists an index i(1≦i≦min(n,m)), such that s_j = t_j for all indices j(1≦j<i), and s_i<t_i. s_i = t_i for all integers i(1≦i≦min(n,m)), and n<m.
+
+---
+
+Task: C
+
+URL: https://atcoder.jp/contests/abc042/tasks/arc058_a
+
+Title: C - Iroha's Obsession
+
+Points: 300
+
+Problem Statement: Iroha is very particular about numbers. There are K digits that she dislikes: D_1, D_2, ..., D_K. She is shopping, and now paying at the cashier. Her total is N yen (the currency of Japan), thus she has to hand at least N yen to the cashier (and possibly receive the change). However, as mentioned before, she is very particular about numbers. When she hands money to the cashier, the decimal notation of the amount must not contain any digits that she dislikes. Under this condition, she will hand the minimum amount of money. Find the amount of money that she will hand to the cashier.
+
+---
+
+Task: D
+
+URL: https://atcoder.jp/contests/abc042/tasks/arc058_b
+
+Title: D - Iroha and a Grid
+
+Points: 400
+
+Problem Statement: We have a large square grid with H rows and W columns. Iroha is now standing in the top-left cell. She will repeat going right or down to the adjacent cell, until she reaches the bottom-right cell. However, she cannot enter the cells in the intersection of the bottom A rows and the leftmost B columns. (That is, there are A×B forbidden cells.) There is no restriction on entering the other cells. Find the number of ways she can travel to the bottom-right cell. Since this number can be extremely large, print the number modulo 10^9+7.
+
+---
+
+======================================
+
+
+======================================
+contest number: 43
+contest URL: https://atcoder.jp/contests/abc043/tasks
+======================================
+
+Task: A
+
+URL: https://atcoder.jp/contests/abc043/tasks/abc043_a
+
+Title: A - Children and Candies (ABC Edit)
+
+Points: 100
+
+Problem Statement: There are N children in AtCoder Kindergarten. Mr. Evi will arrange the children in a line, then give 1 candy to the first child in the line, 2 candies to the second child, ..., N candies to the N-th child. How many candies will be necessary in total?
+
+---
+
+Task: B
+
+URL: https://atcoder.jp/contests/abc043/tasks/abc043_b
+
+Title: B - Unhappy Hacking (ABC Edit)
+
+Points: 200
+
+Problem Statement: Sig has built his own keyboard. Designed for ultimate simplicity, this keyboard only has 3 keys on it: the 0 key, the 1 key and the backspace key. To begin with, he is using a plain text editor with this keyboard. This editor always displays one string (possibly empty). Just after the editor is launched, this string is empty. When each key on the keyboard is pressed, the following changes occur to the string: The 0 key: a letter 0 will be inserted to the right of the string. The 1 key: a letter 1 will be inserted to the right of the string. The backspace key: if the string is empty, nothing happens. Otherwise, the rightmost letter of the string is deleted. Sig has launched the editor, and pressed these keys several times. You are given a string s, which is a record of his keystrokes in order. In this string, the letter 0 stands for the 0 key, the letter 1 stands for the 1 key and the letter B stands for the backspace key. What string is displayed in the editor now?
+
+---
+
+Task: C
+
+URL: https://atcoder.jp/contests/abc043/tasks/arc059_a
+
+Title: C - Be Together
+
+Points: 200
+
+Problem Statement: Evi has N integers a_1,a_2,..,a_N. His objective is to have N equal integers by transforming some of them. He may transform each integer at most once. Transforming an integer x into another integer y costs him (x-y)^2 dollars. Even if a_i=a_j (i≠j), he has to pay the cost separately for transforming each of them (See Sample 2). Find the minimum total cost to achieve his objective.
+
+---
+
+Task: D
+
+URL: https://atcoder.jp/contests/abc043/tasks/arc059_b
+
+Title: D - Unbalanced
+
+Points: 400
+
+Problem Statement: Given a string t, we will call it unbalanced if and only if the length of t is at least 2, and more than half of the letters in t are the same. For example, both voodoo and melee are unbalanced, while neither noon nor a is. You are given a string s consisting of lowercase letters. Determine if there exists a (contiguous) substring of s that is unbalanced. If the answer is positive, show a position where such a substring occurs in s.
+
+---
+
+======================================
+
+
+======================================
+contest number: 44
+contest URL: https://atcoder.jp/contests/abc044/tasks
+======================================
+
+Task: A
+
+URL: https://atcoder.jp/contests/abc044/tasks/abc044_a
+
+Title: A - Tak and Hotels (ABC Edit)
+
+Points: 100
+
+Problem Statement: There is a hotel with the following accommodation fee: X yen (the currency of Japan) per night, for the first K nights Y yen per night, for the (K+1)-th and subsequent nights Tak is staying at this hotel for N consecutive nights. Find his total accommodation fee.
+
+---
+
+Task: B
+
+URL: https://atcoder.jp/contests/abc044/tasks/abc044_b
+
+Title: B - Beautiful Strings
+
+Points: 200
+
+Problem Statement: Let w be a string consisting of lowercase letters. We will call w beautiful if the following condition is satisfied: Each lowercase letter of the English alphabet
