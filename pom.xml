@@ -45,6 +45,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency> <!-- added dependency for web scraping. intelliJ is telling me that the dependency is not found, idk if this will be an issue tho -->
+			<!-- jsoup HTML parser library @ https://jsoup.org/ -->
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.21.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
